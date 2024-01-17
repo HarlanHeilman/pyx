@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyx"
+version = "0.1.0"
+description = "A lightweight CLI for managing xray data collected at ALS Beamline 11.0.1.2 using the FITS archetecture. Thsi packagage incorporates sorting, reduction, and processing of Xray reflectivity, RSOXS and Liquid RSOXS data, while providing a simple interface for said data. Additionally, facilitates easy transitions between the python and igor interfaces."
+authors = ["HarlanHeilman <Harlan.Heilman@wsu.edu>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
